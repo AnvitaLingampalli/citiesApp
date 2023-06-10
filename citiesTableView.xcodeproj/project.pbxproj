@@ -11,6 +11,8 @@
 		C0C51DD829B336C400D4622C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C51DD729B336C400D4622C /* ContentView.swift */; };
 		C0C51DDA29B336C700D4622C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C51DD929B336C700D4622C /* Assets.xcassets */; };
 		C0C51DDD29B336C700D4622C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C51DDC29B336C700D4622C /* Preview Assets.xcassets */; };
+		C0C51DE429B33E3000D4622C /* cityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C51DE329B33E3000D4622C /* cityViewModel.swift */; };
+		C0C51DE829B3F44000D4622C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C51DE729B3F44000D4622C /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C0C51DD729B336C400D4622C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0C51DD929B336C700D4622C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0C51DDC29B336C700D4622C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0C51DE329B33E3000D4622C /* cityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cityViewModel.swift; sourceTree = "<group>"; };
+		C0C51DE729B3F44000D4622C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C0C51DD529B336C400D4622C /* citiesTableViewApp.swift */,
 				C0C51DD729B336C400D4622C /* ContentView.swift */,
+				C0C51DE329B33E3000D4622C /* cityViewModel.swift */,
+				C0C51DE729B3F44000D4622C /* DetailView.swift */,
 				C0C51DD929B336C700D4622C /* Assets.xcassets */,
 				C0C51DDB29B336C700D4622C /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C51DE429B33E3000D4622C /* cityViewModel.swift in Sources */,
+				C0C51DE829B3F44000D4622C /* DetailView.swift in Sources */,
 				C0C51DD829B336C400D4622C /* ContentView.swift in Sources */,
 				C0C51DD629B336C400D4622C /* citiesTableViewApp.swift in Sources */,
 			);
